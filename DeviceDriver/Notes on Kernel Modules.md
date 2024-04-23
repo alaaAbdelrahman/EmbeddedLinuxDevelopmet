@@ -38,8 +38,7 @@ __exit: Specifies the cleanup entry point, called during module removal.
 Module Entry Points Registration
 These macros register the module's initialization and cleanup functions with the kernel:
 
-c
-Copy code
+
 module_init(init_func);
 module_exit(exit_func);
 Building a Kernel Module
@@ -49,7 +48,6 @@ Ensure you have prebuilt kernel source available.
 Use kbuild to compile the module with the correct kernel configuration.
 Create a local Makefile to define module compilation settings.
 Use make to build the module:
-sh
-Copy code
+
 make -C <path to linux kernel tree> M=<path to your module> [target]
 
