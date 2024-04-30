@@ -1,0 +1,1 @@
+savedcmd_/Data/linux/LinuxDeviceDriver/03-pcd_driver_multiple_n_devices/pcd_driver_n_device.mod := printf '%s\n'   pcd_driver_n_device.o | awk '!x[$$0]++ { print("/Data/linux/LinuxDeviceDriver/03-pcd_driver_multiple_n_devices/"$$0) }' > /Data/linux/LinuxDeviceDriver/03-pcd_driver_multiple_n_devices/pcd_driver_n_device.mod
