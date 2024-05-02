@@ -26,7 +26,7 @@
 - Passes boot arguments to the kernel.
 
 ### Control Flow During Linux Boot
-![Linux Booting](./Excalidraw/LinuxBooting.excalidraw.png)
+![Linux Booting](./Excalidraw/LinuxBooting.png)
 
 ### How U-Boot Hands Off Control to Kernel
 ![Linux Booting Explanation](./Excalidraw/linuxBootingExpla.excalidraw.png)
